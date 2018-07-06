@@ -6,8 +6,12 @@ class Test_allure:
         pass
     def teardown(self):
         pass
-    def test_01(self):
-        assert 0
+
+    @pytest.mark.parametrize("a",[1,2,3])
+    @allure.step("我是测试步骤001")
+    def test_01(self,a):
+        assert a != 2
+
     def test_02(self):
         assert 1
 

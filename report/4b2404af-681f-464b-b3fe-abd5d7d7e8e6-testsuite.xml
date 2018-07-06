@@ -1,0 +1,87 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1530880682881" stop="1530880682945">
+  <name>Scripts.test_001</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1530880682881" status="passed" stop="1530880682886">
+      <name>Test_allure.test_01[1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9408-MainThread"/>
+        <label name="host" value="DESKTOP-BOAILTF"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1530880682886" status="passed" stop="1530880682886">
+          <name>我是测试步骤001</name>
+          <title>我是测试步骤001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1530880682889" status="failed" stop="1530880682940">
+      <name>Test_allure.test_01[2]</name>
+      <failure>
+        <message>AssertionError: assert 2 != 2</message>
+        <stack-trace>self = &lt;Scripts.test_001.Test_allure object at 0x05812FB0&gt;, a = 2
+
+    @pytest.mark.parametrize("a",[1,2,3])
+    @allure.step("我是测试步骤001")
+    def test_01(self,a):
+&gt;       assert a != 2
+E       assert 2 != 2
+
+Scripts\test_001.py:13: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9408-MainThread"/>
+        <label name="host" value="DESKTOP-BOAILTF"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1530880682890" status="failed" stop="1530880682891">
+          <name>我是测试步骤001</name>
+          <title>我是测试步骤001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1530880682942" status="passed" stop="1530880682943">
+      <name>Test_allure.test_01[3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9408-MainThread"/>
+        <label name="host" value="DESKTOP-BOAILTF"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1530880682943" status="passed" stop="1530880682943">
+          <name>我是测试步骤001</name>
+          <title>我是测试步骤001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1530880682944" status="passed" stop="1530880682945">
+      <name>Test_allure.test_02</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9408-MainThread"/>
+        <label name="host" value="DESKTOP-BOAILTF"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
